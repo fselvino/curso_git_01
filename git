@@ -1,0 +1,46 @@
+﻿//para incluir arquivos a ser comitados
+
+git add .
+
+//Para ver o status dos arquivos a ser comitados
+
+git status
+
+//comando para comitar os arquivos -m é a mensagem que eu quero passar
+
+git commit -m "mensagem a ser enviada"
+
+//verificar o log dos commits
+
+git log
+
+//enviar o projeto para o git -u 
+
+git push -u origin master
+
+//atualiza o diretorio local com os arquivos do repositorio no git
+git pull
+
+//cria um nova ramificaçao branch
+
+git checkout -b feature/course-page
+
+
+//enviar a nova branch
+git push --set-u origin feature/course-page
+
+//mudar de branch
+
+git checkout master
+
+//listar as branchs
+
+git checkout branch
+
+// ajuntar os branchs
+
+git push origin feature/course-page -- pull request
+
+//Atualiza branch correte com as informaçoes de uma branch de versão diferente
+git pull origin master
+
